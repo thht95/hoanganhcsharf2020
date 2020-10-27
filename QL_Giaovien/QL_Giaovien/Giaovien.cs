@@ -124,7 +124,7 @@ namespace QL_BaoHanhTTDT
                     cmd.Parameters.AddWithValue("@diachi", txtDiachi.Text);
                     cmd.Parameters.AddWithValue("@luong", txtLuong.Text);
                     cmd.Parameters.AddWithValue("@ngaysinh", Convert.ToDateTime(dtpkNgaysinh.Value.ToString()));
-                    cmd.Parameters.AddWithValue("@ngayvaolam", Convert.ToDateTime(dtpkNgaysinh.Value.ToString()));
+                    cmd.Parameters.AddWithValue("@ngayvaolam", Convert.ToDateTime(dtpkNgayvaolam.Value.ToString()));
                     cmd.Parameters.AddWithValue("@makhoa", cboKhoa.SelectedValue);
                     cmd.ExecuteNonQuery();
                     dis_end_luu(false);
@@ -154,7 +154,7 @@ namespace QL_BaoHanhTTDT
                     cmd.Parameters.AddWithValue("@diachi", txtDiachi.Text);
                     cmd.Parameters.AddWithValue("@luong", txtLuong.Text);
                     cmd.Parameters.AddWithValue("@ngaysinh", Convert.ToDateTime(dtpkNgaysinh.Value.ToString()));
-                    cmd.Parameters.AddWithValue("@ngayvaolam", Convert.ToDateTime(dtpkNgaysinh.Value.ToString()));
+                    cmd.Parameters.AddWithValue("@ngayvaolam", Convert.ToDateTime(dtpkNgayvaolam.Value.ToString()));
                     cmd.Parameters.AddWithValue("@magv", dgvGiaoVien.Rows[index].Cells[0].Value.ToString());
                     cmd.ExecuteNonQuery();
                     dis_end_luu(false);
