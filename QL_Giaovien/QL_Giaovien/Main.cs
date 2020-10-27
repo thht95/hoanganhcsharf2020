@@ -122,5 +122,10 @@ namespace QL_BaoHanhTTDT
         {
 
         }
+
+        private void mniOut_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
