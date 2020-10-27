@@ -148,9 +148,9 @@ namespace QL_BaoHanhTTDT
                     cmd.CommandText = "update_GV";
                     cmd.Parameters.AddWithValue("@hoten", txtTenGV.Text);
                     if (rdbtNam.Checked == true)
-                        cmd.Parameters.AddWithValue("@gt", 1);
+                        cmd.Parameters.AddWithValue("@gt", "nam");
                     else if (rdbtNu.Checked == true)
-                        cmd.Parameters.AddWithValue("@gt", 0);
+                        cmd.Parameters.AddWithValue("@gt", "nữ");
                     cmd.Parameters.AddWithValue("@diachi", txtDiachi.Text);
                     cmd.Parameters.AddWithValue("@luong", txtLuong.Text);
                     cmd.Parameters.AddWithValue("@ngaysinh", Convert.ToDateTime(dtpkNgaysinh.Value.ToString()));
