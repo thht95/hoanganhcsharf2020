@@ -408,7 +408,7 @@
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnThem);
             this.Name = "Giaovien";
-            this.Text = "Giaovien";
+            this.Text = "Giáo viên";
             this.Load += new System.EventHandler(this.Giaovien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvGiaoVien)).EndInit();
             this.groupBox1.ResumeLayout(false);
