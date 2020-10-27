@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2B3E079-4FC0-4CC2-924A-7A80D3F899F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QL_BaoHanhTTDT</RootNamespace>
+    <AssemblyName>QL_BaoHanhTTDT</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="connect.cs" />
+    <Compile Include="Giaovien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giaovien.Designer.cs">
+      <DependentUpon>Giaovien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GV_CV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GV_CV.Designer.cs">
+      <DependentUpon>GV_CV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Khoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Khoa.Designer.cs">
+      <DependentUpon>Khoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lophoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lophoc.Designer.cs">
+      <DependentUpon>Lophoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loptinchi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loptinchi.Designer.cs">
+      <DependentUpon>Loptinchi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monhoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monhoc.Designer.cs">
+      <DependentUpon>Monhoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nhommon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nhommon.Designer.cs">
+      <DependentUpon>Nhommon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Giaovien.resx">
+      <DependentUpon>Giaovien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GV_CV.resx">
+      <DependentUpon>GV_CV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Khoa.resx">
+      <DependentUpon>Khoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lophoc.resx">
+      <DependentUpon>Lophoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loptinchi.resx">
+      <DependentUpon>Loptinchi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monhoc.resx">
+      <DependentUpon>Monhoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nhommon.resx">
+      <DependentUpon>Nhommon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\bin\Debug\QL_BaoHanhTTDT.exe.config
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\bin\Debug\QL_BaoHanhTTDT.exe
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\bin\Debug\QL_BaoHanhTTDT.pdb
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_Giaovien.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.Giaovien.resources
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.Khoa.resources
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.Lophoc.resources
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.Loptinchi.resources
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.Main.resources
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.Nhommon.resources
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.Properties.Resources.resources
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_Giaovien.csproj.GenerateResource.Cache
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.exe
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.pdb
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.Monhoc.resources
+C:\Users\Admin\Downloads\QL_BaoHanhTTDT\QL_BaoHanhTTDT\obj\Debug\QL_BaoHanhTTDT.GV_CV.resources
